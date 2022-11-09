@@ -15,6 +15,7 @@ export const ChartDonut = () => {
   return (
     <StyledChartDonut 
       data={data}
+      innerRadius={100}
     />
   )
 }
